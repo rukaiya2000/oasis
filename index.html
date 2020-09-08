@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -31,25 +31,29 @@
 	  <nav class="navbar navbar-expand-lg navbar-top-fixed ftco-navbar-light" id="ftco-navbar">
 	    <div class="container-fluid d-flex align-items-center">
 			<a class="navbar-brand m-0" href="#">
-				<img src="images/Oasis.jpeg" class="p-0 m-0" alt="">
+				<img src="images/logo.jpeg" class="p-0 m-0 oasis" alt="">
 			  </a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> <span class="menu">Menu</span>
-	      </button>
+		    <a class="navbar-brand m-0" href="#">
+				<img src="images/mobileoasis.jpeg"   class="p-0 m-0 mobileoasis" alt="">
+			  </a>
+				
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav m-auto">
 				<li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
 	        	<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-	            <li class="nav-item"><a href="#career" data-toggle="modal" data-target="#career" class="nav-link">Career</a></li>
+	            <li class="nav-item"><a href="#career" data-toggle="modal" data-target="#career" class="nav-link">Careers</a></li>
 	        </ul>
 		  </div>
-		  <div class="row">
-			<ul class="list-inline mr-3">
-				<li class="p-2 "><span class="mx-2 navdetails">info@gmail.com</span><i class="fas fa-paper-plane icons"></i></li>
-				<li class="p-2"><span class="mx-2 navdetails">+517376-38434</span><i class="fas fa-phone icons"></i></li>
-			</ul>
+		<div class="row  icons">
+			<a href="tel:+14123815500"><i class="fas fa-mobile fa-2x px-"></i></a>	
+			<a href="mailto:someone@yoursite.com"><i class="fas fa-envelope fa-2x px-2 "></i></a>	
+			
+			
 		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span>
+	      </button>
 	</div>
 		  
 	  </nav>
@@ -88,7 +92,7 @@
 
         <div class="md-form">
           <i class="fas fa-envelope prefix grey-text"></i>
-          <textarea type="text" id="message" required class="md-textarea form-control" rows="4" placeholder="Leave a Message"></textarea>
+          <textarea type="text" id="message" required class="md-textarea form-control"  minlength="50" maxlength="500" rows="4" placeholder="Leave a Message"></textarea>
 		         </div>
 
       </div>
@@ -107,8 +111,8 @@
       	<div class="overlay"></div>
         <div class="container-fluid">
           <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-7 ftco-animate">
-          	<span class="subheading">Welcome to Oasis Science And Trade Promotion</span>
+          <div class="col-md-7 ftco-animate txt">
+			<span class="subheading">Welcome to Oasis Science And Trade Promotion</span>
             <h1 class="mb-4">We Are The Best Consulting Agency</h1>
           </div>
         </div>
@@ -119,8 +123,9 @@
       	<div class="overlay"></div>
         <div class="container-fluid">
           <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-7 ftco-animate">
-          	<span class="subheading">Todays Talent, Tommorow Success</span>
+          <div class="col-md-7 ftco-animate txt">
+			<span class="subheading">Today's Talent, Tommorow's Success </span>
+
             <h1 class="mb-4">We Help to Grow Your Business</h1>
           </div>
         </div>
@@ -151,7 +156,7 @@
 	  </div>
 	</div>
   </div>
-		<section class="ftco-section mt-0" id ="services">
+		<section class="ftco-section mt-5 mb-5" id ="services">
 			<div class="container">
 				<div class="row d-flex">
 					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
@@ -264,7 +269,7 @@
     	</div>
     </section>
 
-    <section class="ftco-section" id="about">
+    <section class="ftco-section mt-5 mb-5" id="about">
 			<div class="container-fluid">
 				<div class="row justify-content-center mb- pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
@@ -365,7 +370,7 @@
 	  <section>
 		  
 		<div class="container-fluid px-0">
-			<div class="row d-flex block-9  mb-0">
+			<div class="row d-flex block-9 pt-5  mb-0">
 				<div class="col-md-8 mb-md-0 col-lg-6 justify-content-left mx-0 bg-light pt-3">
 					<h2 class="text-center hesitate">If you got any questions <br>Please do not hesitate to write to us</h2>
 				  <form action="#" class="bg-light p-5 contact-form">
@@ -406,13 +411,14 @@
 		
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
-        <div class="row mb-0 d-flex">
+        <div class="row mb-0 pt-5 d-flex">
           <div class="col-md-6 col-lg-5">
             <div class="ftco-footer-widget mb-3 ml-4">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-4">
 	              <ul class="question">
-	               <div class="row d-flex col-md-6 col-lg-6"> <li><i class="fas fa-map-marker-alt fa-1x"></i><span class="text pl-2">203 Fake St. Mountain View, San Francisco, California, USA</span></div></li>
+	               <div class="row d-flex col-md-6 col-lg-6">
+					<li><i class="fas fa-map-marker-alt fa-1x"></i><span class="text pl-2">203 Fake St. Mountain View, San Francisco, California, USA</span></div></li>
 	                <li><a href="#"><i class="fas fa-phone fa-1x"></i><span class="text pl-2">+2 392 3929 210</span></a></li>
 					<li><a href="#"><i class="fas fa-paper-plane fa-1x"></i><span class="text pl-2">info@yourdomain.com</span></a></li>
 					<li class="mt-4"><p>All rights reserved</p></li>
@@ -427,10 +433,10 @@
             <div class="ftco-footer-widget mb-3 ml-md-4">
               <h2 class="ftco-heading-2">Quick Links</h2>
               <ul class="list-unstyled">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-				<li><a href="#career" data-toggle="modal" data-target="#career">Career</a></li>
+                <li><i class="fas fa-angle-right fa-1x"></i><a href="#services">Services</a></li>
+                <li><i class="fas fa-angle-right fa-1x"></i><a href="#about">About</a></li>
+                <li><i class="fas fa-angle-right fa-1x"></i><a href="#contact">Contact</a></li>
+				<li><i class="fas fa-angle-right fa-1x"></i><a href="#career" data-toggle="modal" data-target="#career">Careers</a></li>
 				<li><p class="mt-4"> Copyright &copy;<script>document.write(new Date().getFullYear());</script> </p></li>
 
               </ul>
@@ -441,10 +447,10 @@
             <div class="ftco-footer-widget mb-3 ml-md-4">
               <h2 class="ftco-heading-2">Contact Us</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><i class="fas fa-angle-right fa-1x"></i></span>Twitter</a></li>
-                <li><a href="#"><i class="fas fa-angle-right fa-1x"></i></span>LinkedIn</a></li>
-				<li><a href="#"><i class="fas fa-angle-right fa-1x"></i></span>Facebook</a></li>
-				<li class="mt-5">Powered by <a href="https://www.xaltam.com/" target ="_blank" class="text-decoration-none">xaltam</a></li>
+                <li><a href="#"></a><i class="fab fa-twitter fa-2x" ></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+				<li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+				<li class="mt-2">Powered by <a  href="https://www.xaltam.com/" target ="_blank" class="text-decoration-none"><img class="xaltam" src="images/xaltam.png"></a></li>
 
               </ul>
             </div>
