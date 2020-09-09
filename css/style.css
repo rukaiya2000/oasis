@@ -9,7 +9,7 @@ body {
   overflow-x: hidden; }
 
 .xaltam{
-     width: 100px;
+     width: 25px;
    }
 @media (min-width:629px) {
     .mobileoasis {
@@ -27,19 +27,11 @@ body {
     height:70px;
     
   }
-  .facebook{
-    color: 	#4267B2;
+  .socialicons i{
+    color: 	#b6b6b6;
     transition: all 2s ease-in-out;
   } 
-  .linkedin{
-    color: #0e76a8;
-    transition: all 2s ease-in-out;
-  }
   
-  .twitter{
-color: #00acee;
-transition: all 2s ease-in-out;
-  }
 .txt{
   margin-top: 150px;;
 }
